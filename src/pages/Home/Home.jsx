@@ -12,6 +12,8 @@ export default function Home() {
 					<li>Work</li>
 				</ul>
 			</nav>
+			<div className='display-1'>Hello</div>
+			<button className='btn btn-outline-warning '>Submit</button>
 		</div>
 	)
 }
