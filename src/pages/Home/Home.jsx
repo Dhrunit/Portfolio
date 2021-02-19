@@ -4,10 +4,6 @@ import hero from '../../images/hero.svg'
 import './Home.styles.css'
 
 export default function Home() {
-	const download = () => {
-		window.location.href =
-			'http://localhost:3000/src/DhrunitPrajapatiResume.pdf'
-	}
 	return (
 		<div className='hero'>
 			<Navbar />
@@ -27,6 +23,10 @@ export default function Home() {
 							className='btn'
 							download>
 							Download my resume
+							<i
+								class='fa fa-download'
+								style={{ marginLeft: '0.7rem' }}
+								aria-hidden='true'></i>
 						</a>
 					</div>
 					<div className='col-md-6'>

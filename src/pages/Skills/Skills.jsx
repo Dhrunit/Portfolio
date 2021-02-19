@@ -1,5 +1,9 @@
 import React from 'react'
-
+import Navbar from '../../components/Navbar'
 export default function Skills() {
-	return <div>Skills</div>
+	return (
+		<div>
+			<Navbar />
+		</div>
+	)
 }
