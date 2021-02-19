@@ -2,6 +2,7 @@ import Home from './pages/Home/Home'
 import Skills from './pages/Skills/Skills'
 import About from './pages/About/About'
 import Work from './pages/Work/Work'
+
 import { Route, Switch } from 'react-router-dom'
 function App() {
 	return (

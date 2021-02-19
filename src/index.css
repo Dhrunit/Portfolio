@@ -7,3 +7,15 @@
 body {
 	font-family: 'Josefin Sans', sans-serif;
 }
+
+.yellow {
+	color: #ffcf2d;
+}
+
+.red {
+	color: #fe5244;
+}
+
+a {
+	text-decoration: none;
+}

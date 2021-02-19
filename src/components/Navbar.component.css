@@ -1,0 +1,48 @@
+.navbar {
+	/* background: peachpuff; */
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.75rem;
+}
+
+.navbar ul {
+	display: flex;
+}
+
+.logo {
+	font-size: 35px;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: 2rem;
+	text-decoration: none;
+}
+
+.logo a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav-links {
+	background: #000;
+}
+
+.nav-links ul a {
+	text-decoration: none;
+	width: 120px;
+	height: 50px;
+	list-style: none;
+	color: #fff;
+	margin-right: 2rem;
+	font-size: 18px;
+	background: transparent;
+	border: 1px solid #ffcf2d;
+	padding: 12px 15px;
+	border-radius: 30px;
+	text-align: center;
+}
+.nav-links ul a:hover {
+	background: #ffcf2d;
+	transition: all 0.5s;
+	color: #000;
+}

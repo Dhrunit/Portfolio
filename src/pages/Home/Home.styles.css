@@ -2,10 +2,58 @@ body {
 	background: #000;
 	color: #fff;
 }
-.navbar {
-	margin-top: 1.75rem;
+.hero {
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+.hero-svg {
+	margin-left: -55px;
+	width: 800px;
+	height: 500px;
+}
+.container {
+	margin-top: -10px;
+}
+.hero-text {
+	text-align: left;
+	margin-top: 115px;
+	margin-right: 0;
+}
+.title {
+	font-size: 54px;
+	display: block;
+	font-weight: bold;
+}
+.subtitle {
+	letter-spacing: 2px;
+}
+.btn {
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #ffcf2d;
+	border-radius: 50px;
+	padding: 20px;
+	margin-top: 1rem;
+}
+.btn:hover {
+	background-color: #ffcf2d;
+	transition: all 0.5s;
+}
+.btn:active {
+	border: 1px solid #ffcf2d;
+}
+::-webkit-scrollbar-track {
+	background: #000;
+	border-radius: 10px;
 }
 
-.navbar ul {
-	display: flex;
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: rgb(255, 238, 0);
+	/* background-color: #ffcf2d; */
 }
