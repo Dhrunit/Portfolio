@@ -18,10 +18,7 @@ export default function Home() {
 							I am a full stack web developer who makes web
 							applications mostly using the MERN Stack.
 						</p>
-						<a
-							href='./DhrunitPrajapatiResume.pdf'
-							className='btn'
-							download>
+						<a href='./resume.pdf' className='btn' download>
 							Download my resume
 							<i
 								class='fa fa-download'
