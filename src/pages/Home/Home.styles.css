@@ -36,6 +36,7 @@ body {
 	padding: 20px;
 	width: 275px;
 	margin-top: 1rem;
+	font-size: 1.1rem;
 }
 .btn:hover {
 	background-color: #ffcf2d;

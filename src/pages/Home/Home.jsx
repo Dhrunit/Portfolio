@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
+import Footer from '../../components/Footer'
 import hero from '../../images/hero.svg'
 import './Home.styles.css'
 
@@ -18,10 +19,14 @@ export default function Home() {
 							I am a full stack web developer who makes web
 							applications mostly using the MERN Stack.
 						</p>
-						<a href='./resume.pdf' className='btn' download>
-							Download my resume
+						<a
+							href='https://dhrunit-portfolio.s3.ap-south-1.amazonaws.com/resume.pdf'
+							target='_blank'
+							className='btn'
+							rel='noreferrer'>
+							My resume
 							<i
-								class='fa fa-download'
+								class='far fa-file'
 								style={{ marginLeft: '0.7rem' }}
 								aria-hidden='true'></i>
 						</a>
@@ -31,6 +36,7 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
+			<Footer middle={false} />
 		</div>
 	)
 }

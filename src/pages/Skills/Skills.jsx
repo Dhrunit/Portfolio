@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
+
 import './Skills.styles.css'
 export default function Skills() {
 	return (
