@@ -1,0 +1,68 @@
+.red-container {
+	background-color: #fe5244;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1rem;
+}
+.white__circle {
+	background-color: #fff;
+	width: 25%;
+	height: 200px;
+	margin: 1rem;
+	color: #000;
+	border-radius: 50px;
+	margin-left: 3.5rem;
+}
+.html {
+	margin-top: 1rem;
+	width: 150px;
+	height: 150px;
+}
+.css {
+	margin-top: 1rem;
+	width: 100px;
+	height: 150px;
+}
+.bootstrap {
+	margin-top: 2rem;
+	margin-bottom: 0.7rem;
+	width: 120px;
+	height: 120px;
+}
+.js {
+	margin-top: -3rem;
+	width: 270px;
+	height: 270px;
+	margin-bottom: 0;
+}
+.mongo {
+	width: 300px;
+	height: 150px;
+}
+.express {
+	margin-top: 2.5rem;
+	width: 250px;
+	height: 100px;
+}
+.react {
+	width: 220px;
+	height: 150px;
+}
+.node {
+	margin-top: 1.5rem;
+	width: 200px;
+	height: 125px;
+}
+.aws {
+	width: 200px;
+	height: 150px;
+}
+@media only screen and (max-width: 768px) {
+	.white__circle {
+		width: 50%;
+		margin-left: 8rem;
+	}
+}
