@@ -8,7 +8,7 @@ body {
 	overflow-x: hidden;
 }
 .hero-svg {
-	margin-left: -55px;
+	margin-left: -85px;
 	width: 800px;
 	height: 500px;
 }
@@ -61,4 +61,72 @@ body {
 	border-radius: 10px;
 	background: rgb(255, 238, 0);
 	/* background-color: #ffcf2d; */
+}
+@media only screen and (max-width: 992px) {
+	.hero-svg {
+		margin-left: -90px;
+		width: 650px;
+		height: 500px;
+	}
+	.hero-text {
+		text-align: left;
+		margin-top: 115px;
+		margin-left: -100px;
+		margin-right: 70px;
+	}
+}
+@media only screen and (max-width: 900px) {
+	.hero-svg {
+		margin-left: -90px;
+		width: 600px;
+		height: 500px;
+	}
+	.hero-text {
+		text-align: left;
+		margin-top: 115px;
+		margin-left: -52px;
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.hero-svg {
+		margin-left: -27px;
+		width: 550px;
+		height: 500px;
+	}
+	.hero-text {
+		text-align: center;
+		margin-top: 115px;
+		margin-left: -10px;
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.hero-svg {
+		margin-left: -20px;
+		width: 550px;
+		height: 500px;
+	}
+	.hero-text {
+		text-align: center;
+		margin-top: 115px;
+		margin-left: -5px;
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.hero-svg {
+		margin-left: -90px;
+		width: 500px;
+		height: 500px;
+	}
+	.hero-text {
+		text-align: center;
+		margin-top: 115px;
+		margin-left: 0px;
+		margin-right: 0;
+	}
 }

@@ -15,6 +15,10 @@
 	margin-top: -2rem;
 	/* cursor: pointer; */
 }
+.circle:hover {
+	background: #ffcf2d;
+	color: #000;
+}
 
 .social-icons-middle {
 	color: #fff;

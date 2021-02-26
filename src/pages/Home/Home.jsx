@@ -9,7 +9,7 @@ export default function Home() {
 		<div className='hero'>
 			<Navbar />
 			<div className='container'>
-				<div className='row '>
+				<div className='row'>
 					<div className='col-md-6 col hero-text'>
 						<h1 className='title'>
 							<span className='red'>Full Stack</span> Web
