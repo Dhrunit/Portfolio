@@ -1,0 +1,9 @@
+.work {
+	overflow-x: hidden;
+}
+
+@media only screen and (max-width: 510px) {
+	.gif {
+		width: 300px;
+	}
+}

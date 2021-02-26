@@ -19,10 +19,25 @@
 	background: #ffcf2d;
 	color: #000;
 }
-
-.social-icons-middle {
-	color: #fff;
-	font-size: 30px;
-	display: flex;
-	justify-content: center;
+@media only screen and (max-width: 992px) {
+	.social-icons {
+		margin-left: -5rem;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.circle {
+		margin-left: auto;
+	}
+	.text {
+		margin-top: 2rem !important;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.social-icons {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.text {
+		margin-top: 2rem !important;
+	}
 }

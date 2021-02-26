@@ -1,6 +1,59 @@
+.about {
+	overflow-x: hidden;
+}
 .title {
 	font-size: 2.5rem;
 }
 .about__text {
 	font-size: 1.4rem;
+}
+@media only screen and (max-width: 1125px) {
+	.about__text {
+		margin-left: 2rem;
+	}
+	.gif_about {
+		width: 480px;
+	}
+}
+@media only screen and (max-width: 993px) {
+	.about__text {
+		margin-left: 5rem;
+	}
+	.gif_about {
+		width: 400px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.about__text {
+		margin-top: 2rem;
+		margin-left: 1rem;
+		text-align: center;
+	}
+	.gif_about {
+		margin-left: 3rem;
+		width: 400px;
+	}
+}
+@media only screen and (max-width: 475px) {
+	.gif_about {
+		margin-left: 3rem;
+		width: 350px;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.gif_about {
+		margin-left: 0;
+		width: 350px;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.about__text {
+		margin-top: 2rem;
+		margin-left: 0;
+		text-align: center;
+	}
+	.gif_about {
+		margin-left: 1rem;
+		width: 300px;
+	}
 }

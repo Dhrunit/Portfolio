@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar'
 import './Skills.styles.css'
 export default function Skills() {
 	return (
-		<div>
+		<div className='skills'>
 			<Navbar />
 			<h1 className='title text-center mt-2'>
 				<span className='yellow '>Skills</span>

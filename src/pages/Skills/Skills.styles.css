@@ -1,3 +1,6 @@
+.skills {
+	overflow-x: hidden;
+}
 .red-container {
 	background-color: #fe5244;
 	width: 100%;
@@ -60,9 +63,43 @@
 	width: 200px;
 	height: 150px;
 }
+@media only screen and (max-width: 1125px) {
+	.express {
+		/* margin-top: 3.5rem; */
+		width: 200px;
+		height: 80px;
+	}
+	.mongo {
+		width: 250px;
+		height: 125px;
+	}
+	.js {
+		width: 200px;
+		height: 200px;
+		margin-top: -1rem;
+		margin-bottom: 2rem;
+	}
+}
+@media only screen and (max-width: 990px) {
+	.white__circle {
+		width: 35%;
+	}
+}
 @media only screen and (max-width: 768px) {
 	.white__circle {
 		width: 50%;
 		margin-left: 8rem;
+	}
+}
+@media only screen and (max-width: 450px) {
+	.white__circle {
+		width: 50%;
+		margin-left: 6.5rem;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.white__circle {
+		width: 70%;
+		margin-left: 3rem;
 	}
 }

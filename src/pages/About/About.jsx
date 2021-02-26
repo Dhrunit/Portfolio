@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar'
 import './About.styles.css'
 export default function About() {
 	return (
-		<div>
+		<div className='about'>
 			<Navbar />
 			<div className='section-title'>
 				<h1 className='title text-center mt-2'>
@@ -14,6 +14,7 @@ export default function About() {
 					<div className='row mt-4'>
 						<div className='col-md-6 col '>
 							<img
+								className='gif_about'
 								src='https://media.giphy.com/media/8WJw9kAG3wonu/giphy.gif'
 								alt='patrick-gif'
 							/>

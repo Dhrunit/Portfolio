@@ -36,7 +36,7 @@ export default function Footer(props) {
 					</a>
 				</div>
 			</div>
-			<p style={{ marginTop: '-2rem' }}>
+			<p className='text' style={{ marginTop: '-2rem' }}>
 				Made with ❤ using{' '}
 				<a href='https://reactjs.org/' style={{ color: '#3FB1B5' }}>
 					ReactJs
