@@ -117,11 +117,42 @@ body {
 	}
 }
 
+@media only screen and (max-width: 474px) {
+	.hero-svg {
+		margin-left: -45px;
+	}
+	.hero-text {
+		margin-left: 1rem;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.hero-svg {
+		margin-left: -5rem;
+	}
+	.hero-text {
+		margin-left: 1rem;
+	}
+}
+
 @media only screen and (max-width: 400px) {
 	.hero-svg {
-		margin-left: -90px;
-		width: 500px;
-		height: 500px;
+		margin-left: -35px;
+		width: 400px;
+		height: 400px;
+	}
+	.hero-text {
+		text-align: center;
+		margin-top: 115px;
+		margin-left: 0px;
+		margin-right: 0;
+	}
+}
+@media only screen and (max-width: 360px) {
+	.hero-svg {
+		margin-left: -65px;
+		width: 400px;
+		height: 400px;
 	}
 	.hero-text {
 		text-align: center;

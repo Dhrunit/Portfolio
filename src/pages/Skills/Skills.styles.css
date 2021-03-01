@@ -97,9 +97,37 @@
 		margin-left: 6.5rem;
 	}
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
 	.white__circle {
 		width: 70%;
 		margin-left: 3rem;
+	}
+	.node {
+		width: 200px;
+	}
+}
+@media only screen and (max-width: 330px) {
+	.white__circle {
+		width: 70%;
+		margin-left: 3rem;
+	}
+	.react {
+		margin-left: -0.8rem;
+	}
+	.express {
+		width: 170px;
+		height: 70px;
+		margin-bottom: 1rem;
+	}
+	.mongo {
+		margin-top: 1rem;
+		margin-left: -0.9rem;
+		width: 220px;
+		height: 120px;
+	}
+	.node {
+		width: 150px;
+		height: 90px;
+		margin-bottom: 1rem;
 	}
 }
