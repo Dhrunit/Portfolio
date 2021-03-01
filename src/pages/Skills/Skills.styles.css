@@ -96,6 +96,23 @@
 		width: 50%;
 		margin-left: 6.5rem;
 	}
+	.mongo {
+		margin-left: -1rem;
+	}
+	.node {
+		width: 150px;
+		height: 90px;
+		margin-bottom: 2rem;
+	}
+}
+@media only screen and (max-width: 430px) {
+	.white__circle {
+		width: 60%;
+		margin-left: 5.5rem;
+	}
+	.mongo {
+		margin-left: -0.5rem;
+	}
 }
 @media only screen and (max-width: 400px) {
 	.white__circle {

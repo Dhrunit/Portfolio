@@ -40,6 +40,12 @@
 		width: 350px;
 	}
 }
+@media only screen and (max-width: 440px) {
+	.gif_about {
+		margin-left: 2rem;
+		/* width: 350px; */
+	}
+}
 @media only screen and (max-width: 420px) {
 	.gif_about {
 		margin-left: 0;
