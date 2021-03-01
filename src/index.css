@@ -19,3 +19,17 @@ body {
 a {
 	text-decoration: none;
 }
+::-webkit-scrollbar-track {
+	background: #000;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: rgb(255, 238, 0);
+	/* background-color: #ffcf2d; */
+}

@@ -48,20 +48,7 @@ body {
 .icon {
 	color: #fff;
 }
-::-webkit-scrollbar-track {
-	background: #000;
-	border-radius: 10px;
-}
 
-::-webkit-scrollbar {
-	width: 7px;
-}
-
-::-webkit-scrollbar-thumb {
-	border-radius: 10px;
-	background: rgb(255, 238, 0);
-	/* background-color: #ffcf2d; */
-}
 @media only screen and (max-width: 992px) {
 	.hero-svg {
 		margin-left: -90px;
